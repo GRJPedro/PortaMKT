@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="José Pedro Gómez Rodríguez">
+    <meta name="description" content="CV de Pedro Gómez">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React, Python, Bootstrap, Geografo, SIG">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Titulo -->
+    <title>Análisis de Mercado</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="imagenes/cart4.svg">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <!--chart.js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.min.js"></script>
+    <!--chart.js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <!--Bootstrap para modal-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!--Bootstrap para modal-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </head>
+  <body>
+
+    <div class="container">
+        <div class="row">
+        <nav class="navbar navbar-expand-md navbar-light">
+          <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-toggler">
+              <a class="navbar-brand" href="#">
+                <img src="imagenes/briefcase-fill.svg" width="35" alt="Logo de la página web">
+              </a>
+              <ul class="navbar-nav d-flex justify-content-center align-items-center">
+                <li class="nav-item">
+                  <a class="nav-link active" style="color:rgb(61,0,69)" aria-current="page" href="#bdpedro">Análisis de Mercado</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#productos">Productos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contacto">Contacto</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        </div>
+
+        <!--encabezado con imagen y titulo -->
+        
+        <section id="bdpedro" class="container-fuid">
+          <div class="row head" style="text-align: center;">
+             <div class="head-texto col-9 col-mg-9">
+               <h1>Análisis de Mercado</h1>
+               <p>Ofrezco mis servicios de análisis geográfico de mercado para<br>
+                empresas que buscan entender mejor a sus clientes y optimizar sus<br>
+                estratégias de marketing. Utilizando herramientas de análisis <br>
+                espacial y análisis de datos geoespaciales, proporciono insights<br>
+                valiosos sobre tendencias y patrones de mercado
+               </p>
+             </div>
+          </div>
+        </section>
+
+        <!--parte donde estan los iconos con los puntos que hago-->
+
+        <section id="productos" class="container-fuid">
+          <div class="row botones d-flex justify-content-evenly">
+            <div class="boton col-12 col-md-2">
+              <a href="#planmkt">
+              <i class="bi bi-clipboard-data"></i>
+              <p class="botones-titulo">Plan de MKT</p>
+            </a>
+            </div>
+            <div class="boton col-12 col-md-2">
+              <a href="#segmkt">
+              <i class="bi bi-geo-fill"></i>
+              <p class="botones-titulo">Segmentación</p>
+              </a>
+            </div>
+            <div class="boton col-12 col-md-2">
+              <a href="#logmkt">
+              <i class="bi bi-send"></i>
+              <p class="botones-titulo">Distribución y Logística</p>
+              </a>
+            </div>
+            <div class="boton col-12 col-md-2">
+              <a href="#elecmkt">
+                <i class="bi bi-fingerprint"></i>
+              <p class="botones-titulo">Geomarketing Electoral</p>
+              </a>
+            </div>   
+          </div>
+        </section>
+
+        <!--Plan de MKT-->
+        <section id="planmkt" class="container-fuid">
+          <div class="row prod-izq" >
+            <div class="col-sm-12 col-md-4 col-lg-4 img-mktplan">
+            </div>
+            <div class="col-sm-12 col-md-8 col-lg-8 desc-prod">
+              <h1>Plan de Marketing</h1>
+              <p>Colaboro en la elaboración del Plan de Marketing en el cual se definen de manera
+                 estratégica como una empresa o negocio va alcanzar sus objetivos de marketing en el cual 
+                 se incluyen:
+              </p>
+              <ul>
+                <li>Análisis</li>
+                <li>Definición de objetivos</li>
+                <li>Estratégias</li>
+                <li>Ejecución</li>
+                <li>Control</li>
+              </ul>
+              
+              <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#myModal">
+                Ver más  <i class="bi bi-plus"></i>
+              </button>
+            </div>
+            <!-- Modal Analisis -->
+            <div class="modal" id="myModal">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+
+                  <!-- Modal Titulo -->
+                  <div class="modal-header">
+                    <h4 class="modal-title">Plan de Marketing</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                  </div>
+
+                  <!-- Modal Cuerpo -->
+                  <div class="modal-body nodal">
+                    <div class="nodal-seccion">
+                      <h4>Diagrama del Plan de Marketing </h4>
+                      <p>Este es el diagrama de flujo del Plan de Marketing, en el cual mostraré las etapas y las acciones 
+                        en las cuales colaboro en su elaboración
+                      </p>
+                      <img src="imagenes/modmkt1_1.png">
+                    </div>
+
+                    <div class="nodal-seccion">
+                      <h4>Análisis de Situación</h4>
+                      <p>Dentro del Análisis de la Situación mis labores se centran en el Análisis Externos 
+                        los cuales son:
+                      </p>
+                      <ul>
+                        <li>Mercado
+                        </li>
+                        <li>Competencia
+                        </li>
+                        <li>Sector
+                        </li>
+                        <li>Entorno
+                        </li>
+                      </ul>
+                      <p>Realizando análisis espacial de la delimitación o los alcances territoriales a los que quiere llegar la empresa o el cliente,
+                        de los cuales se realizan una recopilación de información geográfica, económica, política y se entrega un estudio previo 
+                        de la zona de estudio
+                      </p>
+                     <img src="imagenes/modmkt1_2.png">
+                    </div> 
+
+                    <div class="nodal-seccion">
+                      <h4>Selección del Público Objetivo</h4>
+                      <p>En el análisis del Público Objetivo investigo estadisticamente y espacialmente las decisiones de segmentación, 
+                        selección de mercados objetivos y posicionamiento, así como análisi del mercado y segmentos a alcanzar
+                      </p>
+                      
+                     <img src="imagenes/modmkt1_3.png">
+                    </div> 
+
+                    <div class="nodal-seccion">
+                      <h4>Formulación de Objetivos</h4>
+                      <p>A partir del análisis DAFO, colaboro con el equipo de MKT para el establecimiento de Objetivos, sobre todo
+                        en los Objetivos Comerciales en la parte del área funcional, evaluando recursos y expansión espacial de sus diferentes
+                        fases
+                       </p>
+                     
+                     <img src="imagenes/modmkt1_4.png">
+                    </div> 
+
+                    <div class="nodal-seccion">
+                      <h4>Formulación de Estrategias</h4>
+                      <p>Colaboro en la elección de las estrategias, las cuales definen la manera de alcanzar los objetivos, sobretodo a nivel territorial.
+                         Con ello se determinarán las acciones que se llevarán a cabo dependiendo el tiempo y recursos.
+                       </p>
+                       <p>
+                        Dentro de los tipos de estrategias de marketing en donde aplico mis conocimientos estadísticos y geoespaciales son:
+                       </p>
+                       <ul>
+                        <li>Estrategias de crecimiento intensivo:</li>
+                        <p>Estrategia de desarrollo de mercado - Donde a través de estudios de nuevos mercados determino donde el producto ya existente
+                          puede tener exito de ser colocado, utilizando una expansión geográfica.
+                        </p>
+                        <li>Estrategias Competitivas</li>
+                        <p>Estrategia competitiva de Kotler - Uso mis conocimientos para aplicar la estrategia del retador, estudiando a la competencia y 
+                          determinar las zonas o las ubicaciones óptimas para penetrar
+                        </p>
+                       </ul>
+                     
+                     <img src="imagenes/modmkt1_5.png">
+                    </div> 
+
+                    <div class="nodal-seccion">
+                      <h4>Ejecución y Control</h4>
+                      <p>Colaboro en la implementación de acciones que den soporte y ejecución de las estrategias. Acciones
+                        de recopilación, almacenamiento y procesamiento de la información recabada, sobretodo la información geoespacial, 
+                        tomando en cuenta:
+                      </p>
+                      <ul>
+                      <li>Una programación temporal y espacial de las diferentes acciones</li>
+                      <li>Una asignación de recursos implicados y necesarios en cada acción (humanos, materiales, económicos)</li>
+                      </ul>
+                      <p>Para corroborar el estado de las acciones, realizo labores de control incluyendo las siguinetes fases: </p>
+                      <ul>
+                        <li>Medición de resultados mediante indicadores programados</li>
+                        <li>Comparo entre lo estimado y los resultados que se están obteniendo, para revisar si se requieren ajustes o cambios 
+                          en las acciones</li>
+                        <li>Establezco acciones correctoras</li>
+                      </ul>
+                     <img src="imagenes/modmkt1_6.png">
+                    </div> 
+                  </div>
+
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">cerrar</button>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--Segmentación y Posicionamiento-->
+        <section id="segmkt"class="container-fuid"></section>
+          <div class="row prod-der">
+            <div class="col-sm-12 col-md-8 col-lg-8 desc-prod">
+              <h1>Segmentación</h1>
+              <p>Realizo labores para diferenciar el mercado de un producto o servicio 
+                en grupos diferentes de consumidores, que tienen características 
+                homogéneas entre sí y diferentes a los demás en cuanto a criterios 
+                geográficos y demográficos.<br>
+                Estas son las principales actividades que realizo en la segmentación:
+              </p>
+              <ul>
+                <li>Segmentación</li>
+                <li>Definición del Público Objetivo</li>
+              </ul>
+              
+              <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#bdr">
+                Ver más  <i class="bi bi-plus"></i>
+              </button>
+            </div>
+
+            <!--Modal BDrelacioanl-->
+            <div class="modal" id="bdr">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+
+                  <!-- Modal Titulo -->
+                  <div class="modal-header">
+                    <h4 class="modal-title">Segmentación y Público Objetivo</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                  </div>
+
+                  <!-- Modal body -->
+                  <div class="modal-body nodal">
+                    <div class="nodal-seccion">
+                      <h4>Segmentación</h4>
+                      <p>
+                        Mis actividades como analista espacial en la segmentación, se centran en el 
+                        Marketing Segmentado, donde las empresas buscan diferenciar grupos de individuos con 
+                        características homogéneas y diferentes entre sí (segmentos) planteando ofertas distintas
+                        para cada uno de ellos.
+                      </p>
+                      <p> 
+                        Para ello utilizo información estadística y espacial (shp, kmz, tab)
+                        trabajando con información oficial y con información levantada mediante encuestas o entrevistas
+                        utilizando técnicas de muestreo.
+                      </p>
+                      <img src="imagenes/modmkt2_1.png">
+
+                      <p><br>
+                        También en mis labores de segmentación colaboro con decisiones sobre variables de segmentación 
+                        y fuentes de información buscando que los segmentos sean:
+                      </p>
+                      <ul>
+                        <li>Medibles</li>
+                        <li>Rentables</li>
+                        <li>Accesibles</li>
+                        <li>Operativos</li>
+                      </ul>
+                    </div>
+
+                    <div class="nodal-seccion">
+                      <h4>Criterio Geográfico</h4>
+                      <p>Para el criterio geográfico utilizo información espacial que representa una unidad territorial, esto a diferentes escalas, ya sean políticas,
+                        climáticas, culturales, etc.
+                      </p>
+                      <ul>
+                        <li>Región: Norte, Sur, Este, Oeste</li>
+                        <li>Tamaño de localidad: 5 mil habitantes, 10 mil habitantes, 50 mil habitantes...</li>
+                        <li>Tipo de población: Rural, Suburbana, Urbana</li>
+                        <li>Tipo de Clima: Templado, Tropical, Seco</li>
+                      </ul>
+                      
+                     
+                     <img src="imagenes/modmkt2_2.png">
+                    </div> 
+
+                    <div class="nodal-seccion">
+                      <h4>Criterio Demográfico </h4>
+                      <p>Para el criterio demográfico utilizo información poblacional de fuentes oficiales, como los censos económicos, conteos 
+                        nacionales de población y vivienda, así como información levantada de encuestas y entrevistas realizadas de manera
+                        particular utilizando muestreos, y con información realizada con procesos estadísticos que inferencian el comportamiento poblacional 
+                      </p>
+                      <ul>
+                        <li>Sexo: Masculino/femenino</li>
+                        <li>Edad: 0 a 2 años, 2 a 6 años, 6 a 14 años, 14 a 24 años ...</li>
+                        <li>Educación: Sin educación, Primaria, Secundaria, Media Superior, Superior</li>
+                        <li>Ocupación: Profesionista, Comerciante, Ama de casa, Sin trabajo</li>
+                        <li>Religión: Cristiano, Catolico, Ateo...</li>
+                        <li>Clase social: Baja, Media, Alta </li>
+                      </ul>
+                     <img src="imagenes/modmkt2_3.png">
+                    </div> 
+
+                    <div class="nodal-seccion">
+                      <h4>Definición del Público Objetivo</h4>
+                      <p>Despues de segmentar el mercado, mis labores son de colaboración para definir el público objetivo, lo cual es decidir 
+                        a cual o cuales segmentos se va dirigir. Para tomar esta decisión se valoran los segmentos segun:
+                      </p>
+                      <ul>
+                        <li>Tamaño y crecimiento del mercado</li>
+                        <li>Atractivo estructural del segmento</li>
+                        <li>Los objetivos y recursos de la empresa</li>
+                      </ul>
+                     <img src="imagenes/modmkt2_4.png">
+                    </div>
+                  </div>
+
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">cerrar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4 img-mktseg">
+            </div>
+          </div>
+        </section>
+
+        <!--Logistica-->
+        <section id="logmkt" class="container-fuid">
+          <div class="row prod-izq" >
+            <div class="col-sm-12 col-md-4 col-lg-4 img-mktlog">
+            </div>
+            <div class="col-sm-12 col-md-8 col-lg-8 desc-prod">
+              <h1>Distribución y Logística</h1>
+              <p>La distribución relaciona la producción con el consumo, es decir pone el producto
+                a disposición del consumidor final, en el momento que lo necesite y en el 
+                lugar donde desea adquirido. Para ello mis labores en distribución llevan a cabo las 
+                siguientes decisiones estratégicas:
+              </p>
+              <ul>
+                <li>Diseño y selección del canal de distribución</li>
+                <li>Localización de los puntos de venta</li>
+                <li>Logística de la distribución</li>
+              </ul>
+              
+              <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#bdg">
+                Ver más  <i class="bi bi-plus"></i>
+              </button>
+            </div>
+            <!-- Modal Analisis -->
+            <div class="modal" id="bdg">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+
+                  <!-- Modal Titulo -->
+                  <div class="modal-header">
+                    <h4 class="modal-title">Distribución y Logística</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                  </div>
+
+                  <!-- Modal Cuerpo -->
+                  <div class="modal-body nodal">
+                    <div class="nodal-seccion">
+                      <h4>Diseño y selección del canal de distribución</h4>
+                      <p>Mis labores en el diseño y selección del canal de distribución, se centran trabajando a partir de los factores que influyen en 
+                        las decisiones estructurales del canal de distribución, las cuales se derivan de la selección de los intermediarios, 
+                        la estructura del canal ya sea horizontal o vertical. 
+                      </p>
+                      <p>Estos factores son: </p>
+                      <ul>
+                        <li>Entorno: 
+                        </li>
+                        <p>Analizar geograficamente los elementos sociales, económicos, legales, físicos, y estructurales</p>
+                        <li>Competencia:
+                        </li>
+                        <p>Analizar el patron espacial de la competencia</p>
+                        <li>Consumidores:
+                        </li>
+                        <p>Analizar espacialmente a los consumidores, ya sea los segmentos donde se encuentra el público objetivo o 
+                          los puntos de venta
+                        </p>
+                        <li>Producto:
+                        </li>
+                        <p>Análizar el tamaño, cantidad, estacionalidad, servicios especiales (productos frágiles, perecederos, etc.)</p>
+                      </ul>
+                      <img src="imagenes/modmkt3_1.png">
+                    </div>
+
+                    <div class="nodal-seccion">
+                      <h4>Localización de los puntos de venta</h4>
+                      <p>La localización de los puntos de venta es un proceso en donde las empresas buscan establecer presencia física en el mercado.
+                        Para definir la ubicación estratégica de los puntos de venta, utilizo técnicas y teoria geoespacial para identificar
+                        patrones geográficos en la demanda y distribución de productos, y para analizar la relación entre ubicación y el comportamiento de los clientes 
+                        potenciales.
+                      </p>
+                      <p>Para determinar la localización de los puntos de venta:</p>
+                      <ul>
+                        <li>Evaluo la accesibilidad y visibilidad de ubicaciones para tiendas o centros de distribución
+                        </li>
+                        <li>Identifico áreas con alta concentración de clientes potenciales
+                        </li>
+                        <li>Analizo la proximidad a las infraestructuras de transporte (calles, vías rápidas, estaciones de metro, etc.)
+                        </li>
+                      </ul>
+                     <img src="imagenes/modmkt3_2.png">
+                    </div>  
+
+                    <div class="nodal-seccion">
+                      <h4>Logística de la distribución</h4>
+                      <p>La logística se refiere al proceso de planificar, coordinar y ejecutar el movimiento y almacenamiento de bienes, servicios e información
+                        desde el punto de origen hasta el punto de consumo, para ello relaizo labores de:
+                      <ul>
+                        <li>Planificación de la cadena de suministro
+                        </li>
+                        <li>Gestión de inventarios y almacenamiento
+                        </li>
+                        <li>Transporte y distribución
+                        </li>
+                        <li>Manejo de pedidos y entrega
+                        </li>
+                        <li>Gestión de devoluciones y reclamos
+                        </li>
+                      </ul>
+                      <p>
+                        Para faciliatar la gestión de logística y la distribución, tengo conocimientos y trabajos donde he realizado soluciones informaticas
+                        a traves sistemas donde desarrollo aplicaciones web de distribución de mercancias para PyMEs que comercializan productos.
+                      </p>
+
+                     <img src="imagenes/modmkt3_3.png">
+                     <p>
+                      Este tipo de sistemas son adaptables a los requerimientos 
+                      y especificaciones de los clientes por ende son implementados en la web 
+                      con aplicaciones empresariales J2EE, integrados por frameworks especializados.<br>
+                      La tecnología y herramientas que se utilizan para el 
+                      desarrollo pueden ser sofwares de licencia y también software libre y gratuito, esto para minimizar costos.
+                     </p>
+                    </div> 
+                  </div>
+
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">cerrar</button>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--Geografía Electoral-->
+        <section id="elecmkt"class="container-fuid"></section>
+          <div class="row prod-der">
+            <div class="col-sm-12 col-md-8 col-lg-8 desc-prod">
+              <h1>Geomarketing Electoral</h1>
+              <p>El geomarketing electoral es una estrategia que combina técnicas de marketing y análisis geográfico para influir en el comportamiento
+                de votantes en las elecciones. La idea es utilizar herramientas de marketing para obtener el voto, considerándolo como mercancía valiosa.
+                Estos son algunos de mis principales productos:
+              </p>
+              <ul>
+                <li>Análisis Geográfico y Segmetación</li>
+                <li>Análisis de la Competencia</li>
+                <li>Muestreo (encuestas)</li>
+              </ul>
+              
+              <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#SGBD">
+                Ver más  <i class="bi bi-plus"></i>
+              </button>
+            </div>
+
+            <!--Modal BDrelacioanl-->
+            <div class="modal" id="SGBD">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+
+                  <!-- Modal Titulo -->
+                  <div class="modal-header">
+                    <h4 class="modal-title">Geomarketing Electoral</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                  </div>
+
+                  <!-- Modal body -->
+                  <div class="modal-body nodal">
+                    <div class="nodal-seccion">
+                      <h4>Análisis Geográfico y Segmentación</h4>
+                      <p>Uso el análisis geográfico y segmentación para entender la distribución de la población en un territorio, o una demarcación política,
+                        para conocer sus características demográficas, identificando lso grupos de votantes con necesidades y preferencias específicas.
+                      </p>
+                      
+                      <img src="imagenes/modmkt4_1.png">
+                    </div>
+
+                    <div class="nodal-seccion">
+                      <h4>Análisis de la Competencia</h4>
+                      <p>El análisis de la competencia sirve para entender quienes son los votantes potenciales y cómo llegar a ellos. Esto implica modelar la 
+                        tendencia electoral actual a partir de la estadística histórica reciente y clasificar a los electores en grupos de intención de voto, 
+                        como cambiantes, indecisos o leales.
+                      </p>
+                      <img src="imagenes/modmkt4_2.png">
+                    </div>
+                    <div class="nodal-seccion">
+                      <h4>Muestreo (encuestas)</h4>
+                      <p>El muestreo es una estrategia para levantar información en campo mediante encuestas ahorrando recursos y tiempo, esta información garantiza
+                        veracidad técnica y metodológica, con esta información se toman decisiones 
+                        informadas en campañas políticas. Dentro del muestreo se tienen diferentes métodos dentro de los cuales ofrezco:
+                      </p>
+                      <ul>
+                        <li>Muestreo Aleatorio Simple</li>
+                        <li>Muestreo Estratificado</li>
+                        <li>Muestreo por Conglomerados</li>
+                      </ul>
+                      <img src="imagenes/modmkt4_3.png">
+                    </div>
+                  </div>
+
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">cerrar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4 img-mktelec">
+            </div>
+          </div>
+        </section>
+
+       <!--sección footer-->
+
+        <section id="contacto" class="container-fuid">
+          <div class= "row footer d-flex flex-column align-items-center justify-content-center">
+            <p class="footer-texto text-center">Aprendo y creo todos los días.<br>Creemos un proyecto juntos.</p>
+            <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+              <a href="https://x.com/pedrogo62967054?s=11" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-twitter"></i>
+              </a>
+              <a href="https://github.com/GRJPedro" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-github"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/josé-pedro-gómez-rodríguez-61851566" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-linkedin"></i>
+              </a>
+              <a href="https://www.instagram.com/pedrogomez_geo/" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-instagram"></i>
+              </a>
+              <a href="mailto:pedrogomez.geo@gmail.com" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-envelope"></i>
+              </a>
+            </div>
+            <div class="derechos-de-autor">Creado Pedro Gómez (2025) &#169;</div>
+          </div>
+        </section>
+  </body>
+</html>
